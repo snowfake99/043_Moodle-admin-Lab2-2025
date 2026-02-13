@@ -525,7 +525,8 @@ Grade to pass: 60%
 **บันทึกรูปหน้า Course ที่เพิ่มเติม Activities:** 
 ```
  # บันทึกรูปหน้า Course ที่เพิ่มเติม Activities
-```
+ ![alt text](image-9.png)
+`
 
 
 ## คำถามท้ายการทดลอง
