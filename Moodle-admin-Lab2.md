@@ -28,31 +28,14 @@
 ### การสร้าง Users
 - **แนะนำ:** **CSV Upload** ทุกกรณี
 - มีประสิทธิภาพและจัดการง่าย
-![ตารางเปรียบเทียบ Authentication Mode](images/authentication-method.png)
+![ตารางเปรียบเทียบ Authentication Mode](images/authentiication-method.png)
 ---
 
 ## 📚 ส่วนที่ 1: ทฤษฎีและแนวคิดพื้นฐาน
 
 ### 1.1 Moodle Architecture สำหรับสถานศึกษา
 
-![Moodel System Architectuer](images/moodle-system-architecture.png)
-```
-┌─────────────────────────────────────────────┐
-│         MOODLE SYSTEM HIERARCHY             │
-├─────────────────────────────────────────────┤
-│  Site Administration                        │
-│    ├─── Categories                          │
-│    │     ├─── ปีการศึกษา 2568                 │
-│    │     │     ├─── ภาคเรียนที่ 1              │
-│    │     │     │     ├─── ม.1               │
-│    │     │     │     ├─── ม.2               │
-│    │     │     │     └─── ม.3               │
-│    │                                        │
-│    ├─── Courses                             │
-│    ├─── Users (Teachers, Students)          │
-│    └─── Cohorts (กลุ่มผู้ใช้)                    │
-└─────────────────────────────────────────────┘
-```
+![Moodel System Architectuer](images/moodle-system-hierrachy.png)
 
 **ความสำคัญของการวางแผนโครงสร้างของระบบ:**
 1. Scalability - ขยายระบบได้ง่าย
@@ -101,13 +84,6 @@
 
 ### 1.4 User Roles
 
-| Role | ความสามารถ |
-|------|-----------|
-| Manager | จัดการทั้งระบบ |
-| Course Creator | สร้างรายวิชา |
-| Teacher | จัดการรายวิชาเต็มรูปแบบ |
-| Non-editing Teacher | ดูข้อมูล ให้คะแนน |
-| Student | เรียน ทำกิจกรรม |
 ![Moodle Role](images/moodle-role.png)
 
 ### 1.5 Bulk User Upload
